@@ -1,0 +1,132 @@
+body{
+    background-color: green;
+}
+
+.head{
+    margin-top: 100px;
+    margin-left: 100px;
+    position: absolute;
+}
+
+#basehead{
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-right: 50px solid #555;
+	border-bottom: 25px solid transparent;
+    border-radius: 25px;
+    position: absolute;
+}
+
+#lefteye{
+    background-color: black;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+#righteye{
+    background-color: black;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+#nose{
+    background-color: pink;
+    height: 8px;
+    width: 10px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: -8px;
+    margin-top: -4px;
+}
+
+#leftear{
+    background-color: pink;
+    height: 20px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 25px;
+    transform: rotate(30deg);
+}
+
+#rightear{
+    background-color: pink;
+    height: 20px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 25px;
+    transform: rotate(-30deg);
+}
+
+#base{
+    background-color: #555;
+    height: 50px;
+    width: 100px;
+    border-radius: 50%;
+    position:absolute;
+    margin-left: 145px;
+    margin-top: 100px;
+}
+
+#foot1{
+    background-color: pink;
+    height: 13px;
+    width: 25px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+#foot2{
+    background-color: pink;
+    height: 13px;
+    width: 25px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 138px;
+    margin-left: 150px;
+}
+
+#foot3{
+    background-color: pink;
+    height: 13px;
+    width: 25px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 210px;
+}
+
+#foot4{
+    background-color: pink;
+    height: 13px;
+    width: 25px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 138px;
+    margin-left: 210px;
+}
+
+#tail{
+    position: absolute;
+    width: 0;
+	height: 0;
+	border-top: 5px solid transparent;
+	border-left: 100px solid pink;
+	border-bottom: 5px solid transparent;
+    margin-top: 120px;
+    margin-left: 240px;
+}
